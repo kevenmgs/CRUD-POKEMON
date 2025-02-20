@@ -6,8 +6,8 @@
 - Editor de código
 
 **Instalación y Configuración**
-1.- Acceder a la ruta donde vamos a clonar el proyecto
-2.- Clonar el proyecto ejecutar el comando 
+- Acceder a la ruta donde vamos a clonar el proyecto
+- Clonar el proyecto ejecutar el comando 
         **git clone https://github.com/kevenmgs/CRUD-POKEMON.git**
 3.- Acceder a la carpeta del proyecto 
         **cd CRUD-POKEMON**
