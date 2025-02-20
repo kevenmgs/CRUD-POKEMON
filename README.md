@@ -7,8 +7,8 @@
 
 **Clonar el proyecto y configuracón**
 - Acceder a la ruta donde vamos a clonar el proyecto
-- clonar el proyecto -> git clone https://github.com/kevenmgs/CRUD-POKEMON.git
-- Acceder a la carpeta del proyecto -> cd CRUD-POKEMON
+- clonar el proyecto ejecutar el comando **git clone https://github.com/kevenmgs/CRUD-POKEMON.git**
+- Acceder a la carpeta del proyecto **cd CRUD-POKEMON**
 - En la terminar ejecutar **composer install**
 - En la terminar ejecutar **npm i**
 - Copia el archivo .env.example y nombrarlo .env
