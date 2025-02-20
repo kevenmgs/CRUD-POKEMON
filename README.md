@@ -24,11 +24,11 @@
 - Crear una BD
 - Editar el archivo .env con los datos de conexión
       **Modificar por los nombres de cada usuario**
-        -DB_HOST=127.0.0.1
-        -DB_PORT=3306
-        -DB_DATABASE=nombre_de_tu_base_de_datos
-        -DB_USERNAME=tu_usuario
-        -DB_PASSWORD=tu_contraseña
+        - DB_HOST=127.0.0.1
+        - DB_PORT=3306
+        - DB_DATABASE=nombre_de_tu_base_de_datos
+        - DB_USERNAME=tu_usuario
+        - DB_PASSWORD=tu_contraseña
 
 **Ejecutar migraciones y seeders**
 - En la terminar ejecutar 
