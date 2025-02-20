@@ -18,25 +18,16 @@ class AuthController extends Controller
         $credentials = $request->only('email', 'password');
 
         if (Auth::attempt($credentials)) {
-            // Usuario autenticado correctamente
-            return redirect()->route('home');
+            return redirect()->route('pokemons.index');
         }
 
-        return back()->withErrors(['email' => 'Las credenciales ingresadas son incorrectas']);
+        return back()->withErrors(['email' => 'Las credenciales son incorrectas']);
     }
 
     public function logout()
     {
         Auth::logout();
         return redirect()->route('login');
-    }
-
-    public function dashboard()
-    {
-        if (!Auth::check()) {
-            return redirect()->route('login');
-        }
-        return view('dashboard', ['user' => Auth::user()]);
     }
 
     public function home()
